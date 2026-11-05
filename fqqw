@@ -1,7 +1,5 @@
 
 def travel_costs(km: int) -> float:
-    """
-    Bepaalt de vervoerskosten voor de heen- en terugreis.
 
     >>> travel_costs(1250)
     325.0
