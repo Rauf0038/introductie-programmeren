@@ -1,0 +1,13 @@
+def bereken_kosten(afstand: int, duur: int) -> int:
+    vervoerskosten = 0.13 * afstand
+    verblijfskosten = 60 * duur
+    totaal = round(verblijfskosten + vervoerskosten)
+    return totaal
+
+if __name__ == '__main__':
+    
+    afstand = int(input('Wat is de afstand van de volledige reis? (in km)'))
+    duur = int(input('Hoeveel nachten gaat u verblijven?'))
+    
+    totaal = bereken_kosten(afstand, duur)
+    print('Uw totale kosten voor deze vakantie zijn', totaal, 'euro')
