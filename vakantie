@@ -11,4 +11,3 @@ duur = int(input('Hoeveel nachten gaat u verblijven?'))
 totaal = bereken_kosten(afstand, duur)
 
 print('Uw totale kosten voor deze vakantie zijn', totaal, 'euro')
-cmd
