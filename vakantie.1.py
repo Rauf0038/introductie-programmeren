@@ -9,6 +9,5 @@ afstand = int(input('Wat is de afstand van de volledige reis? (in km)'))
 duur = int(input('Hoeveel nachten gaat u verblijven?'))
 
 totaal = bereken_kosten(afstand, duur)
-
-print('Uw totale kosten voor deze vakantie zijn', totaal, 'euro')
 f __name__ == '__main__':
+print('Uw totale kosten voor deze vakantie zijn', totaal, 'euro')
