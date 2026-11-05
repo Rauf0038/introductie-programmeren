@@ -1,1 +1,1 @@
-hoogte = int(input('hoe '
+hoogte = int(input('hoe hoog wil je dat de piramide is?'))
