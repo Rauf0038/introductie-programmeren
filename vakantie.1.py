@@ -1,5 +1,5 @@
 def bereken_kosten(afstand: int, duur: int) -> int:
-    
+    >>>
     vervoerskosten = 0.13 * afstand
     verblijfskosten = 60 * duur
     totaal = round(verblijfskosten + vervoerskosten)
