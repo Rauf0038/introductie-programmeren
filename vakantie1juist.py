@@ -14,7 +14,7 @@ def bereken_kosten(afstand: int, duur: int) -> int:
     13
     """
     
-    if __name__ == '__main__'
+    if __name__ == '__main__':
         
         vervoerskosten = 0.13 * afstand
         verblijfskosten = 60 * duur
