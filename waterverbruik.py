@@ -6,14 +6,15 @@ def hoeveelheid_water(minuten: int) -> int:
     12 flesjes water
 
     Hoeveel minuten douche je? 8
-    96flesjes water
+    96 flesjes water
     
     Hoeveel minuten douche je? 1
     12 flesjes water
 
     Hoeveel minuten douche je? 5
-    60
+    60 flesjes water
     """
 
 if __name__ == '__main__':
+    
     <vraag input, roep functie aan, en print resultaat
