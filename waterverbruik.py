@@ -19,4 +19,4 @@ if __name__ == '__main__':
     minuten = int(input(hoeveel minuten doucht u?))
     flesjes = minuten * 12
     print('u heeft', flesjes, 'water verbruikt')
-    <vraag input, roep functie aan, en print resultaat
+ 
