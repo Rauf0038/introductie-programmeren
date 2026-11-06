@@ -6,6 +6,7 @@ def hoeveelheid_water(minuten: int) -> int:
     12 flesjes water
 
     Hoeveel minuten douche je? 8
+    96
     
     Hoeveel minuten douche je? 1
     12 
