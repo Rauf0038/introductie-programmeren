@@ -18,5 +18,5 @@ def hoeveelheid_water(minuten: int) -> int:
 if __name__ == '__main__':
     minuten = int(input(hoeveel minuten doucht u?))
     flesjes = minuten * 12
-    
+    print('u heeft')
     <vraag input, roep functie aan, en print resultaat
