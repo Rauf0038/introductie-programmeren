@@ -8,7 +8,7 @@ def hoeveelheid_water(minuten: int) -> int:
     Hoeveel minuten douche je? 10
     120
     Hoeveel minuten douche je? 1
-    12
+    12 
 
     Hoeveel minuten douche je? 5
     60
