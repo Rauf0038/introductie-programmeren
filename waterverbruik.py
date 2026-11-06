@@ -19,4 +19,6 @@ if __name__ == '__main__':
     minuten = int(input('hoeveel minuten doucht u?'))
     flesjes = minuten * 12
     print('u heeft', flesjes, 'water verbruikt')
- python -m doctest -v programma.py
+
+
+python -m doctest -v programma.py
