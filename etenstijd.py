@@ -28,4 +28,4 @@ if __name__ == '__main__':
     tijd = input("Hoe laat is het? ")
     maaltijd = meal(tijd)
     if maaltijd is not None:
-        print(f"Het is tijd voor {maaltijd}")1
+        print(f"Het is tijd voor {maaltijd}")
