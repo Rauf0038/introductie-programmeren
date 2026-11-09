@@ -17,6 +17,6 @@ def bereken_kosten(afstand: int, duur: int) -> int:
     if __name__ == '__main__':
         
         vervoerskosten = 0.13 * afstand
-        verblijfskosten = 60 * duur
-        totaal = round(verblijfskosten + vervoerskosten)
-        return totaal
+            verblijfskosten = 60 * duur
+            totaal = round(verblijfskosten + vervoerskosten)
+            return totaal
