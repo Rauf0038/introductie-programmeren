@@ -1,1 +1,1 @@
-def is_acidic(ph) -> bool:
+def is_acidic(ph: bool) -> bool:
