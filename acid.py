@@ -5,4 +5,5 @@ def is_acidic(ph: bool) -> bool:
     zuur
     >>>ph(10)
     basisch
-    >>>ph()
+    >>>ph(7.1)
+    
