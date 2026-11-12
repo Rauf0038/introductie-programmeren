@@ -1,1 +1,1 @@
-def is_acidic(...) -> bool:
+def is_acidic() -> bool:
