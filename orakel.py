@@ -4,6 +4,6 @@ def check_answer(answer: str) -> bool:
     42, tweeenveertig, of tweeënveertig is.
     """
 
-answer = input('Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij? ')
+answer = input('Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij?')
 if __name__ == '__main__':
     
