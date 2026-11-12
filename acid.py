@@ -16,4 +16,4 @@ if __name__ == '__main__':
     if ph > 7:
         print('Uw oplossing is basisch')
     else:
-        print('uw ')
+        print('uw oplossing is zuur')
