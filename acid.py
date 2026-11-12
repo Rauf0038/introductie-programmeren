@@ -12,7 +12,7 @@ def is_acidic(ph: bool) -> bool:
     """
 
 if __name__ == '__main__':
-    ph = bool(input('Wat is de ph van uw oplossing?'))
+    ph = float(input('Wat is de ph van uw oplossing?'))
     if ph > 7:
         print('Uw oplossing is basisch')
     else:
