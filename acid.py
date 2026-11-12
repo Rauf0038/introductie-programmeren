@@ -1,4 +1,3 @@
-acid.py
 def is_acidic(ph: bool) -> bool:
     """
     geeft aan of een bepaalde ph zuur of basisch is
@@ -19,5 +18,4 @@ if __name__ == '__main__':
     else:
         print('uw oplossing is zuur')
 
-python -m doctest -v programma.py
 
