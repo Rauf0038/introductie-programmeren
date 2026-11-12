@@ -10,3 +10,5 @@ def is_acidic(ph: bool) -> bool:
     >>>ph(-1)
     zuur
     """
+
+if __name__ == '__main__':
