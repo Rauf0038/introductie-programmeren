@@ -10,4 +10,3 @@ def is_acidic(ph: bool) -> bool:
     >>>ph(-1)
     zuur
     """
-    
