@@ -6,7 +6,7 @@ def check_answer(answer: str) -> bool:
 
 answer = input('Wat is het antwoord op de grote vraag van het leven, het universum en alles daarbij?')
 if __name__ == '__main__':
-    if answer == (42):
+    if answer == ('42'):
         print('ja')
     elif answer == ('tweeënveertig'):
         print('ja')
