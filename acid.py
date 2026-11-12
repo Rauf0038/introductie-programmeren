@@ -17,4 +17,6 @@ if __name__ == '__main__':
         print('Uw oplossing is basisch')
     else:
         print('uw oplossing is zuur')
-        
+
+python -m doctest -v programma.py
+
