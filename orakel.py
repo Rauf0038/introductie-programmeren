@@ -10,5 +10,8 @@ if __name__ == '__main__':
         print('ja')
     elif answer = tweeënveertig:
         print('ja')
-    elif answer = 
+    elif answer = tweeenveertig:
+        print('ja')
+    else:
+        print('nee')
     
