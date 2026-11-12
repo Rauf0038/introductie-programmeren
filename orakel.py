@@ -8,7 +8,7 @@ answer = input('Wat is het antwoord op de grote vraag van het leven, het univers
 if __name__ == '__main__':
     if answer == 42:
         print('ja')
-    elif answer == ('tweeënveertig):
+    elif answer == ('tweeënveertig'):
         print('ja')
     elif answer == tweeenveertig:
         print('ja')
