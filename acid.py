@@ -12,3 +12,4 @@ def is_acidic(ph: bool) -> bool:
     """
 
 if __name__ == '__main__':
+    ph = bool(input('Wat is de ph van uw oplossing?'))
