@@ -3,4 +3,4 @@ woorden = ["appel", "peer", "banaan", "kiwi", "druif"]
 met_a = [woord for woord in woorden if "a" in woord]
 print(met_a)
 
-woorden = 
+woorden = ["appel", "peer", "banaan", "kiwi", "druif"]
