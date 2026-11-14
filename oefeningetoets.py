@@ -15,4 +15,3 @@ def woorden_met_a(woorden):
 
 if __name__ == "__main__":
     woord = input('geef een lijst aan worden')
-    return [woord for woord in woorden if "a" in woord.lower()]
