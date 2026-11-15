@@ -23,4 +23,4 @@ def vowely_words(words: list[str]) -> list[str]:
 if __name__ == "__main__":
     tekst = input("Typ woorden, gescheiden door spaties: ")
     woorden = tekst.split()   # alleen hier, niet in de functie
-    print(vowely_words(woorden))
+    print(woorden))
