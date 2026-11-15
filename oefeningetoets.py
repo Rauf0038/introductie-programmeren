@@ -56,7 +56,7 @@ def no_vowely_words(words: list[str]) -> list[str]
 count = []
 for word in words:
     for char in word:
-        if char.lower() in 'bcdfghjklmnpqrstvwxyz':
+        if char.lower() in 'aeoui':
             count =+ 1
             if count >= 1: 
                 
