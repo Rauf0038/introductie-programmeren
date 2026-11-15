@@ -54,3 +54,5 @@ def no_vowely_words(words: list[str]) -> list[str]
 """
 
 result = []
+for word in words:
+    
