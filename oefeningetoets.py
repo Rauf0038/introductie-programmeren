@@ -63,5 +63,5 @@ for word in words:
 return result
 
 if __name__ == '__main__':
-    tekst = input()
+    tekst = input(welke woorden kies je, gescheiden door een spatie:')
                 
