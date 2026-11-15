@@ -43,4 +43,4 @@ if __name__ == "__main__":
 
 def no_vowely_words(words: list[str]) -> list[str]
 """
->>>(['aap', 'noot', 'psst'])
+>>>no_vowely_words(['aap', 'noot', 'psst'])
