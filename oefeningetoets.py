@@ -55,5 +55,5 @@ def no_vowely_words(words: list[str]) -> list[str]
 
 result = []
 for word in words:
-    for char.lower() in word:
-        if char
+    for char in word:
+        if char.lower() == ''
