@@ -1,6 +1,5 @@
 def vowely_words(words: list[str]) -> list[str]:
-    """Returns all words that contain two or more vowels (upper or lower case).
-
+    """
     >>> vowely_words(['Aap', 'Noot', 'Mies'])
     ['Aap', 'Noot', 'Mies']
     >>> vowely_words(['bak', 'kat', 'mies'])
@@ -19,3 +18,9 @@ def vowely_words(words: list[str]) -> list[str]:
         if count >= 2:
             result.append(word)
     return result
+
+
+if __name__ == "__main__":
+    tekst = input("Typ woorden, gescheiden door spaties: ")
+    woorden = tekst.split()   # alleen hier, niet in de functie
+    print(vowely_words(woorden))
