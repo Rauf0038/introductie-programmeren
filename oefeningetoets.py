@@ -65,4 +65,31 @@ return result
 if __name__ == '__main__':
     tekst = input('welke woorden kies je, gescheiden door een spatie:')
     return(no_vowely_words(words))
+    
+def no_vowely_words(words: list[str]) -> list[str]:
+    """
+    >>> no_vowely_words(['aap', 'noot', 'psst'])
+    ['psst']
+    >>> no_vowely_words(['boom', 'mhm', 'ahh'])
+    ['mhm']
+    >>> no_vowely_words(['AI', 'g', 'b'])
+    ['g', 'b']
+    >>> no_vowely_words([])
+    []
+    """
+    result = []
+    for word in words:
+        count = 0
+        for char in word:
+            if char.lower() in 'aeiou':
+                count += 1
+        if count == 0:
+            result.append(word)
+    return result
+
+
+if __name__ == '__main__':
+    tekst = input('welke woorden kies je, gescheiden door een spatie: ')
+    words = tekst.split()
+    print(no_vowely_words(words))
                 
