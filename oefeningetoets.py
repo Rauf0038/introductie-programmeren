@@ -59,5 +59,6 @@ for word in words:
         if char.lower() in 'aeoui':
             count =+ 1
             if count >= 1: 
-                
+                break 
+return 
                 
