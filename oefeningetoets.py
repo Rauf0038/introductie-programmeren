@@ -58,3 +58,4 @@ for word in words:
     for char in word:
         if char.lower() in 'bcdfghjklmnpqrstvwxyz':
             count =+ 1
+            
