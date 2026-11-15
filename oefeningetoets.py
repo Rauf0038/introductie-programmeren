@@ -50,4 +50,5 @@ def no_vowely_words(words: list[str]) -> list[str]
 >>>no_vowely_words(['AI', 'g', 'b'])
 ['g']
 >>>no_vowely_words([])
-['psst']
+[]
+""
