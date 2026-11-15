@@ -41,4 +41,4 @@ if __name__ == "__main__":
 
 
 
-def no_vowely_words(words: list) -> 
+def no_vowely_words(words: list[str]) ->  
