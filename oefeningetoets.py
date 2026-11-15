@@ -64,5 +64,5 @@ return result
 
 if __name__ == '__main__':
     tekst = input('welke woorden kies je, gescheiden door een spatie:')
-    return()
+    return(no_vowely_words())
                 
