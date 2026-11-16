@@ -1,16 +1,9 @@
-def longest_vowel_start(s: str) -> int:
-
 count = 0
-current = 0
+for char in s:
+    if char == " ":
+        break
+    count += 1
+return count
 
-for word in s:
-    if word[0] in 'aeoui':
-        for char in word:
-            count += 1
-            if count > current:
-                current = count
-                
-
-return current
-            
+input = 
         
