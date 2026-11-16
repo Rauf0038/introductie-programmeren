@@ -6,7 +6,7 @@ def count_long_words(s: str, n: int) -> int:
     n = 0            # aantal lange woorden
     for char in s:
         if char == " ":
-            if current > ...:
+            if current > n:
                 ...
             current = ...
         else:
