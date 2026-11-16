@@ -1,3 +1,4 @@
-count = 0
 for word in s:
+    count = 0
+    
     
