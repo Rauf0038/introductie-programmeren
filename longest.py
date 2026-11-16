@@ -9,6 +9,5 @@ for word in s:
             count += 1
             if count > current:
                 current == count
-                
             
         
