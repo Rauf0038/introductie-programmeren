@@ -4,5 +4,6 @@ count == 0
 
 for word in s:
     if word[0] is in 'aeoui':
-        
+        for char in word:
+            
         
