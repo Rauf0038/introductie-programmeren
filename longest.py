@@ -1,4 +1,4 @@
 def count_a(s: str) -> int:
 """ 
->>> sbanaan
+>>> s(banaan
 3
