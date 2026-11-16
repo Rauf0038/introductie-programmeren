@@ -18,6 +18,6 @@ def count_exact_words(s: str, n: int) -> int:
             current ...            # Hint: een gewone letter, dus het woord wordt 1 langer
     # Hint: het laatste woord heeft geen spatie erachter.
     # Doe hier dezelfde check als in de loop:
-    if current ... n:
-        count ...
-    return ...                     # Hint: wat moet de functie teruggeven?
+    if current == n:
+        count +=1
+    return current # Hint: wat moet de functie teruggeven?
