@@ -1,1 +1,1 @@
-def 
+def longest_vowel_start(s: str) -> int
