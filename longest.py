@@ -8,7 +8,7 @@ for word in s:
         for char in word:
             count += 1
             if count > current:
-                current == count
+                current = count
                 
 
 return current
