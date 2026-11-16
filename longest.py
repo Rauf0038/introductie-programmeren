@@ -14,4 +14,4 @@ def count_long_words(s: str, n: int) -> int:
     # na de loop: het laatste woord
     if current > n:
         count += 1 
-    return ...
+    return count
