@@ -15,7 +15,7 @@ def select_not_lower(strs: list[str]) -> list[str]:
     for woord in words:
         aantal = 0
         for letter in woord:
-            if letter.lower() in 'aeoui':
+            if letter.lower() in 'fegrhtj':
                 aantal += 1
         if aantal == 0:
             resultaat.append(woord)
