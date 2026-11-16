@@ -8,7 +8,7 @@ def count_long_words(s: str, n: int) -> int:
         if char == " ":
             if current > n:
                 count +=1
-            current = ...
+            current = 0
         else:
             ...
     # na de loop: het laatste woord
