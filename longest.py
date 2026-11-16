@@ -2,3 +2,5 @@ def longest_vowel_start(s: str) -> int
 
 count == 0
 
+for word in s:
+    
