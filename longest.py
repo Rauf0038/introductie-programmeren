@@ -6,7 +6,7 @@ for word in s:
         if count >= 10 :
             result.append(word)
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     s = input('schrijf een zin op:')
     return result
     
