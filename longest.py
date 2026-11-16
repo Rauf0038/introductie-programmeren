@@ -1,17 +1,23 @@
-def count_long_words(s: str, n: int) -> int:
+def count_exact_words(s: str, n: int) -> int:
     """
-    doctests hier
+    # Hint: schrijf hier vier doctests. Bepaal de uitkomst met de hand.
+    # 1. Het voorbeeld uit de opgave (antwoord 3)
+    # 2. Een lege string (hoeveel woorden van lengte n zijn er?)
+    # 3. Dezelfde string als het voorbeeld, maar met n = 3
+    #    (loop de lengtes na: 3, 4, 4, 4, 3)
+    # 4. Eén woord zonder spatie, bijvoorbeeld "aap" met n = 3
     """
-    current = 0        # lengte van het huidige woord
-    count = 0            # aantal lange woorden
-    for char in s:
-        if char == " ":
-            if current > n:
-                count +=1
-            current = 0
+    current = ...   # Hint: lengte van het huidige woord. Wat is de beginwaarde?
+    count = ...     # Hint: aantal woorden dat precies n lang is. Beginwaarde?
+    for char in s:                 # Hint: één teken per stap
+        if char == " ":            # Hint: een spatie betekent dat het woord klaar is
+            if current ... n:      # Hint: je wilt PRECIES n. Welke vergelijking is dat? (niet > of <)
+                count ...          # Hint: het woord telt mee, dus de teller gaat omhoog
+            current = ...          # Hint: het volgende woord begint, dus opnieuw tellen
         else:
-            current += 1
-    # na de loop: het laatste woord
-    if current > n:
-        count += 1 
-    return count
+            current ...            # Hint: een gewone letter, dus het woord wordt 1 langer
+    # Hint: het laatste woord heeft geen spatie erachter.
+    # Doe hier dezelfde check als in de loop:
+    if current ... n:
+        count ...
+    return ...                     # Hint: wat moet de functie teruggeven?
