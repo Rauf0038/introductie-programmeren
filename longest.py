@@ -3,6 +3,6 @@ for char in s:
     if char == " ":
         break
     count += 1
-return count
+    return count
 
 s = input('wat is s:')        
