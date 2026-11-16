@@ -11,9 +11,12 @@ def select_not_lower(strs: list[str]) -> list[str]:
     >>> select_not_lower([])
     []
     """
-    resultaat = []
-    klinker == 'aeoui'
-    for woord in strs:
-        if klinker not in woord
+       resultaat = []
+    for woord in words:
+        aantal = 0
+        for letter in woord:
+            if letter.lower() in 'aeoui':
+                aantal += 1
+        if aantal == 0:
             resultaat.append(woord)
     return resultaat
