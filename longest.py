@@ -12,7 +12,7 @@ def select_not_lower(strs: list[str]) -> list[str]:
     []
     """
     resultaat = []
-    
+    klinker == 'aeoui'
     for woord in strs:
         if not woord.islower():
             resultaat.append(woord)
