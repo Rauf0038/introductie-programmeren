@@ -4,7 +4,7 @@ count = 0
 current = 0
 
 for word in s:
-    if word[0] is in 'aeoui':
+    if word[0] in 'aeoui':
         for char in word:
             count += 1
             if count > current:
