@@ -8,4 +8,5 @@ def count_a(s: str) -> int:
 0
 >>> s(aap)
 2
-""
+"""
+
