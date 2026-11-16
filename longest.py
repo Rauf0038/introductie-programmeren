@@ -10,3 +10,5 @@ def count_a(s: str) -> int:
 2
 """
 
+for char in s:
+    if char == ''
