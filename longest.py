@@ -1,2 +1,4 @@
 vowel = 'aeoui'
-if 
+for vowel in words:
+    remove vowels
+return words
