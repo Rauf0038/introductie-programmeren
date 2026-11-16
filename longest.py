@@ -11,7 +11,7 @@ def count_exact_words(s: str, n: int) -> int:
     count = 0     # Hint: aantal woorden dat precies n lang is. Beginwaarde?
     for char in s:                 # Hint: één teken per stap
         if char == " ":            # Hint: een spatie betekent dat het woord klaar is
-            if current ... n:      # Hint: je wilt PRECIES n. Welke vergelijking is dat? (niet > of <)
+            if current == n:      # Hint: je wilt PRECIES n. Welke vergelijking is dat? (niet > of <)
                 count ...          # Hint: het woord telt mee, dus de teller gaat omhoog
             current = ...          # Hint: het volgende woord begint, dus opnieuw tellen
         else:
