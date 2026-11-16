@@ -7,8 +7,7 @@ for word in s:
             result.append(word)
 
 if __name__ == '__main__':
-    s = input('schrijf een zin op:')
-
-return result
+    s = input('schrijf een zin op:') 
+    return result
     
     
