@@ -8,6 +8,7 @@ for word in s:
 
 if __name__ == '__main__':
     s = input('schrijf een zin op:')
-    return result
+
+return result
     
     
