@@ -5,5 +5,4 @@ for char in s:
     count += 1
 return count
 
-input = 
-        
+s = input('wat is s:')        
