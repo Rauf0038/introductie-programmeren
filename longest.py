@@ -7,7 +7,7 @@ def count_exact_words(s: str, n: int) -> int:
     #    (loop de lengtes na: 3, 4, 4, 4, 3)
     # 4. Eén woord zonder spatie, bijvoorbeeld "aap" met n = 3
     """
-    current = ...   # Hint: lengte van het huidige woord. Wat is de beginwaarde?
+    current = 0   # Hint: lengte van het huidige woord. Wat is de beginwaarde?
     count = ...     # Hint: aantal woorden dat precies n lang is. Beginwaarde?
     for char in s:                 # Hint: één teken per stap
         if char == " ":            # Hint: een spatie betekent dat het woord klaar is
