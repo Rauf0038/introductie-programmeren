@@ -7,6 +7,8 @@ for word in s:
     if word[0] is in 'aeoui':
         for char in word:
             count += 1
-            
+            if count > current:
+                current == count
+                
             
         
