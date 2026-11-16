@@ -1,4 +1,5 @@
-vowel = 'aeoui'
-for vowel in words:
-    remove vowels
-return words
+result = ""
+    for char in s:
+        if char.lower() not in "aeiou":
+            result += char
+    return result
