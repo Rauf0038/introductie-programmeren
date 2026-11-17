@@ -10,7 +10,7 @@ for word in words:
         if count >= 2:
             tweeklinkers.append(word)
             
-return[]
+return tweeklinkers
 
         
     
