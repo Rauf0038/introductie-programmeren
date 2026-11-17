@@ -7,8 +7,8 @@ for word in words:
     for char in word:
         if char in klinker:
             count += 1
-        if count >= 2:
-            tweeklinkers.append(word)
+    if count >= 2:
+        tweeklinkers.append(word)
             
 return tweeklinkers
 
