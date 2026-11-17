@@ -10,4 +10,4 @@ for char in letters:
     else:
         lijst_medeklinkers.append(char)
         
-return[li]
+return[lijst_klinkers, lijst_medeklinkers]
