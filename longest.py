@@ -6,4 +6,4 @@ lijst_medeklinkers = []
 
 for char in letters:
     if char in klinkers:
-        
+        lijst
