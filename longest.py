@@ -5,7 +5,9 @@ klinkers = 'aeoui'
 
 for char in words:
     if char.lower() in klinkers:
+        count += 1
         
+return count
 
         
     
