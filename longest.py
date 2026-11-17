@@ -1,1 +1,1 @@
-def split 
+def split_by_parity
