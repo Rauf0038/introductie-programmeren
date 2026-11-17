@@ -3,8 +3,8 @@ def vowely_words(words: list[str]) -> list[str]:
 klinker = 'aeoui'
 tweeklinkers = []
 for word in words:
+    count = 0
     for char in word:
-        count = 0
         if char in klinker:
             count += 1
         if count >= 2:
