@@ -1,3 +1,4 @@
 def split_by_spaces(zin: str) -> list[str]:
     
-for char in zin
+for char in zin:
+    
