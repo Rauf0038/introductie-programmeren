@@ -5,4 +5,6 @@ def split_by_sign(ints: list[int]) -> list[list[int]]:
 [[-3, -1], [0, 5, 2]]
 
 >>>([-1, 0 1])
-[[-3], []
+[[-3], [0, 1]]
+
+>>>
