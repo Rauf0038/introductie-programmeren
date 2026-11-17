@@ -4,7 +4,10 @@ klinker = 'aeoui'
 tweeklinkers = []
 for word in words:
     for char in word:
-        
+        count = 0
+        if char in word:
+            count += 1
+            
 
         
     
