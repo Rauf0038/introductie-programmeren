@@ -22,4 +22,4 @@ for getal in ints:
         negatief.append(getal)
     elif getal >= 0:
         niet_negatief.append(getal)
-return[[negatief], []
+return[[negatief], [niet_negatief]]
