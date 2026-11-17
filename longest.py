@@ -6,5 +6,7 @@ oneven = []
 
 for int in ints:
     if int % 2 == 0:
-        int.append(int)
+        even.append(int)
+    else:
+        
         
