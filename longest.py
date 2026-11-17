@@ -8,4 +8,4 @@ for char in letters:
     if char in klinkers:
         lijst_klinkers.append(char)
     else:
-        cha
+        lijst_medeklinkers.append
