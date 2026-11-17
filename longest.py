@@ -5,7 +5,7 @@ lijst_klinkers = []
 lijst_medeklinkers = []
 
 for char in letters:
-    if char in klinkers:
+    if char.lower() in klinkers:
         lijst_klinkers.append(char)
     else:
         lijst_medeklinkers.append(char)
