@@ -7,6 +7,7 @@ woorden = ['']
 for char in zin:
     if char in alfabet:
         woorden.append(char)
-    if char 
+    if char == ' ':
+        break
         
     
