@@ -21,4 +21,5 @@ for getal in ints:
     if getal < 0:
         negatief.append(getal)
     elif getal >= 0:
-        
+        niet_negatief.append(getal)
+return[]
