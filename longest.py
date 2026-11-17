@@ -15,3 +15,7 @@ def split_by_sign(ints: list[int]) -> list[list[int]]:
 """
 
 negatief = []
+niet_negatief = []
+
+for getal in ints:
+    
