@@ -18,4 +18,4 @@ negatief = []
 niet_negatief = []
 
 for getal in ints:
-    if 
+    if getal < 0
