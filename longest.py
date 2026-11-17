@@ -8,7 +8,9 @@ for word in words:
         if char in word:
             count += 1
         if count >= 2:
+            tweeklinkers.append(word)
             
+return
 
         
     
