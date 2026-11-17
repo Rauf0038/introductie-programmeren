@@ -1,1 +1,1 @@
-def split_by_parity
+def split_by_parity(ints: list[int])
