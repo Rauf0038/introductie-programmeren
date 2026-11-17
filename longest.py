@@ -20,4 +20,4 @@ niet_negatief = []
 for getal in ints:
     if getal < 0:
         negatief.append(getal)
-    el
+    elif
