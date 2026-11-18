@@ -7,4 +7,4 @@ def has_single_vowel(s: str) -> bool:
     >>> has_single_vowel("")
     False
     """
-    
+    klinker
