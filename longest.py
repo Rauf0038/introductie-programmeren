@@ -7,4 +7,4 @@ Groter = []
 
 for number in ints:
     if number < limit:
-        
+        Kleiner.append()
