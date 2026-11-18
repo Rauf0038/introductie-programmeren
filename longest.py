@@ -23,7 +23,8 @@ count_words_with(s: str, letter: str) -> int:
     2
     """
     
-    count = 0
+    
     for char.lower() in s:
-        
+        count = 0 
+        for letter in 
     
