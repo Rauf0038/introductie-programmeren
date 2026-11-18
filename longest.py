@@ -8,4 +8,8 @@ def has_single_vowel(s: str) -> bool:
     False
     """
     klinkers = 'aeouiAEOUI'
-    count = [0]
+    count = 0
+    for char in s:
+        if char in klinkers:
+            count += 1
+            
