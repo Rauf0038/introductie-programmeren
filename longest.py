@@ -8,3 +8,4 @@ def has_single_vowel(s: str) -> bool:
     False
     """
     klinkers = 'aeouiAEOUI'
+    
