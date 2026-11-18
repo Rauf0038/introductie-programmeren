@@ -9,4 +9,6 @@ for number in ints:
     if number < limit:
         Kleiner.append(number)
     else:
-        
+        Groter.append(number)
+
+Return
