@@ -11,4 +11,6 @@ def sum_even(ints: list[int]) -> int:
     """
     even = []
     oneven = []
-    
+    for number in ints:
+        if number % 2 == 0:
+            
