@@ -4,5 +4,5 @@ def longest_word_length(s: str) -> int:
     count = 0
     for char in s:
         if char != ' ':
-            break
-        elif 
+            count +=1
+            
