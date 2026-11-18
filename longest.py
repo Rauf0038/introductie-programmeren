@@ -19,6 +19,6 @@ def sum_even(ints: list[int]) -> int:
     
 count_words_with(s: str, letter: str) -> int:
     """
-    >>>('appel peer banaan')
+    >>>('appel peer banaan', 'a')
     ('a')
     
