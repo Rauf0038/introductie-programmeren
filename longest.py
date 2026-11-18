@@ -12,4 +12,7 @@ def has_single_vowel(s: str) -> bool:
     for char in s:
         if char in klinkers:
             count += 1
-        
+    if count == 1:
+        return True
+    else:
+        return False
