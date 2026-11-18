@@ -5,4 +5,4 @@ def longest_word_length(s: str) -> int:
     for char in s:
         if char == ' ':
             break
-        
+        elif 
