@@ -1,3 +1,4 @@
 def sum_even(ints: list[int]) -> int:
     """
-    >>>[]
+    >>>[1,2,3,4]
+    [6]
