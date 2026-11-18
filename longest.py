@@ -17,3 +17,6 @@ def sum_even(ints: list[int]) -> int:
     return sum_even
     
     
+count_words_with(s: str, letter: str) -> int:
+    """
+    
