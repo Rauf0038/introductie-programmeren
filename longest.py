@@ -7,3 +7,4 @@ def longest_word_length(s: str) -> int:
             count +=1
         if count > current:
             current = count
+        
