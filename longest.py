@@ -9,4 +9,6 @@ def sum_even(ints: list[int]) -> int:
     >>>[2,4,6,8]
     [20]
     """
+    even = []
+    oneven = []
     
