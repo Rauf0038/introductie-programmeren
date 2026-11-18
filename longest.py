@@ -11,4 +11,4 @@ for number in ints:
     else:
         Groter.append(number)
 
-Return
+Return [Kleiner, Groter]
