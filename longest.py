@@ -15,4 +15,5 @@ def sum_even(ints: list[int]) -> int:
         if number % 2 == 0:
             number.append(even)
         else:
-            number.append()
+            number.append(oneven)
+    return
