@@ -23,7 +23,7 @@ count_words_with(s: str, letter: str) -> int:
     2
     """
     
-    
+    count = 0
     for char in s:
         if char == letter:
             count += 1
