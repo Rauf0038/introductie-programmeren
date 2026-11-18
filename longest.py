@@ -1,1 +1,1 @@
-def longest_word_length(s: str)
+def longest_word_length(s: str) -> int
