@@ -24,4 +24,4 @@ if __name__ == '__main__':
     cents = -1
     while cents < 0:
         cents = int(input('Hoeveel wisselgeld moet er gegeven worden (in centen)? '))
-    print(count_coins(cents))
+    print(count_coins(cents))=
