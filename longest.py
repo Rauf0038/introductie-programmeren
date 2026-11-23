@@ -9,8 +9,8 @@ def count_coins(cents: int) -> int:
     6
     >>> count_coins(41)
     4
-    >>> count_coins(41)
-    4
+    >>> count_coins(75)
+    3
     """
     coins = 0
     for value in (25, 10, 5, 1):
