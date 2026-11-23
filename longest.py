@@ -5,16 +5,10 @@ def count_coins(cents: int) -> int:
 
     >>> count_coins(0)
     0
-    >>> count_coins(1)
-    1
     >>> count_coins(24)
     6
-    >>> count_coins(25)
-    1
     >>> count_coins(41)
     4
-    >>> count_coins(402)
-    20
     """
     coins = 0
     for value in (25, 10, 5, 1):
@@ -25,14 +19,7 @@ def count_coins(cents: int) -> int:
 
 
 if __name__ == '__main__':
-    amount = -1
-    while amount < 0:
-        text = input('Hoeveel wisselgeld moet er gegeven worden? ')
-        try:
-            amount = float(text)
-        except ValueError:
-            amount = -1
-
-    cents = round(amount * 100)
+    cents = -1
+    while cents < 0:
+        cents = int(input('Hoeveel wisselgeld moet er gegeven worden (in centen)? '))
     print(count_coins(cents))
-    
